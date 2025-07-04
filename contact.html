@@ -1,0 +1,42 @@
+<!-- Created by Syeda Ayesha Fatima -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - TravelEase</title>
+  <link rel="stylesheet" href="styles/contact.css">
+  <script>
+    function validateForm() {
+      const name = document.forms["contactForm"]["name"].value;
+      const email = document.forms["contactForm"]["email"].value;
+      if (name === "" || email === "") {
+        alert("Name and Email are required!");
+        return false;
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Contact TravelEase</h1>
+  </header>
+
+  <section>
+    <p>Email: info@travelease.pk</p>
+    <p>WhatsApp: +92-300-1234567</p>
+    <p>Address: Gilgit Main Bazaar</p>
+
+    <form name="contactForm" onsubmit="return validateForm()">
+      <input type="text" name="name" placeholder="Name"><br>
+      <input type="email" name="email" placeholder="Email"><br>
+      <input type="text" name="subject" placeholder="Subject"><br>
+      <textarea name="message" placeholder="Message"></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+
+    <h2>Our Location</h2>
+    <img src="images/map.png" alt="Office Location Map" width="400">
+  </section>
+</body>
+</html>
