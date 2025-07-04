@@ -1,0 +1,34 @@
+/* Created by Syeda Ayesha Fatima */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #def2f1;
+  margin: 0;
+}
+
+header {
+  background: #17252a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  margin: 20px;
+}
+
+input, textarea {
+  width: 90%;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background: #3aafa9;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
