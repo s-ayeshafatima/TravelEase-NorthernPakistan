@@ -1,9 +1,13 @@
 {
   "rules": {
+    "color-no-invalid-hex": true,
     "declaration-block-no-duplicate-properties": true,
-    "no-duplicate-selectors": true,
-    "value-keyword-case": "lower",
-    "selector-type-case": "lower",
-    "block-no-empty": true
-  }
-}
+    "block-no-empty": true,
+    "selector-pseudo-class-no-unknown": true,
+    "no-descending-specificity": true,
+    "font-family-no-duplicate-names": true,
+    "declaration-block-trailing-semicolon": "always",
+    "property-no-unknown": true,
+    "unit-no-unknown": true,
+    "selector-type-no-unknown": true
+  }}
