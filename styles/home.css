@@ -1,34 +1,24 @@
-/* Created by Syeda Ayesha Fatima */
-
+/* Created by Muhammad Sikandar */
 body {
   font-family: Arial, sans-serif;
-  background: #def2f1;
+  background: #f4f4f4;
   margin: 0;
 }
-
 header {
-  background: #17252a;
+  background: #2b7a78;
   color: white;
   padding: 20px;
   text-align: center;
 }
-
-section {
-  margin: 20px;
-}
-
-input, textarea {
-  width: 90%;
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
-
-button {
-  padding: 10px 20px;
-  background: #3aafa9;
+nav a {
   color: white;
-  border: none;
-  cursor: pointer;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.destination {
+  margin: 20px;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
 }
