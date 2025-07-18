@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+header {
+  background: #2b7a78;
+  color: white;
+  padding: 15px;
+}
+article {
+  margin: 15px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
